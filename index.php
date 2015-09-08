@@ -19,3 +19,7 @@ $result = $pushAll->send(array(
     'title' => 'test 2',
     'text' => 'test 2 test test 2'
 ));
+
+echo '<pre>';
+print_r($result);
+echo '</pre>';
