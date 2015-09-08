@@ -32,19 +32,19 @@ Where `{dir}` - full server path to a directory with our pushall folder.
 ## Initialization parameters
 Parameter | Type | Required | Default | Variants
 --------- | ---- | -------- | ------- | --------
-**id** | integer | **YES** | - | -
-**key** | string | **YES** | - | -
-**responseType** | string | NO | 0 | `0, 1` OR `RESPONSE_TYPE_JSON, RESPONSE_TYPE_ARRAY`
+**id** | *integer* | **YES** | - | -
+**key** | *string* | **YES** | - | -
+**responseType** | *string* | NO | 0 | `0, 1` OR `RESPONSE_TYPE_JSON, RESPONSE_TYPE_ARRAY`
 
 ## List of parameters
 Parameter | Type | Required | Default | Variants
 --------- | ---- | -------- | ------- | --------
-**type** | string | **YES** | self | `self, broadcast, multicast` OR `TYPE_SELF, TYPE_VROADCAST, TYPE_MULTICAST`
-**uid** | integer | NO | - | -
-**title** | string | **YES** | - | -
-**text** | string | **YES** | - | -
-**url** | string | NO | - | - 
-**hidden** | integer | NO | 0 | `0, 1, 2` OR `HIDDEN_FALSE, HIDDEN_HISTORY, HIDDEN_BAND`
-**encode** | string | NO | UTF-8 | -
-**priority** | integer | NO | 0 | `-1, 0, 1` OR `PRIORITY_NOT_IMPORTANT, PRIORITY_DEFAULT, PRIORITY_IMPORTANT`
-**responseType** | integer | NO | 0 | `0, 1` OR `RESPONSE_TYPE_JSON, RESPONSE_TYPE_ARRAY`
+**type** | *string* | **YES** | self | `self, broadcast, multicast` OR `TYPE_SELF, TYPE_VROADCAST, TYPE_MULTICAST`
+**uid** | *integer* | NO | - | -
+**title** | *string* | **YES** | - | -
+**text** | *string* | **YES** | - | -
+**url** | *string* | NO | - | - 
+**hidden** | *integer* | NO | 0 | `0, 1, 2` OR `HIDDEN_FALSE, HIDDEN_HISTORY, HIDDEN_BAND`
+**encode** | *string* | NO | UTF-8 | -
+**priority** | *integer* | NO | 0 | `-1, 0, 1` OR `PRIORITY_NOT_IMPORTANT, PRIORITY_DEFAULT, PRIORITY_IMPORTANT`
+**responseType** | *integer* | NO | 0 | `0, 1` OR `RESPONSE_TYPE_JSON, RESPONSE_TYPE_ARRAY`
