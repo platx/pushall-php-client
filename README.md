@@ -11,9 +11,7 @@ Copy pushall directory to different place.
     require {dir}'/pushall/PushAll.php';
 ```
 Where `{dir}` - full server path to a directory with our pushall folder.
-
 2. Than you must to initialize PushAll client with following code:
-
 ```php
     /**
      * Client initialization
