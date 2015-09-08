@@ -7,7 +7,7 @@ This is php client for **PushAll.ru API**, helps to send push messages via PushA
 ```
 Where `{dir}` - full server path to a directory with our pushall folder.
 
-2.Than you must to initialize PushAll client with following code:
+2.Then you must to initialize PushAll client with following code:
 ```php
     /**
      * Client initialization
