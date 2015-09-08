@@ -12,6 +12,7 @@ Copy pushall directory to different place.
 ```
 Where `{dir}` - full server path to a directory with our pushall folder.
 
+
 2. Than you must to initialize PushAll client with following code:
 ```php
     /**
@@ -22,6 +23,7 @@ Where `{dir}` - full server path to a directory with our pushall folder.
         'da588eeab42e032070d0c1fae169b912'
     );
 ```
+
 
 3. To send a push message use following code:
 ```php
