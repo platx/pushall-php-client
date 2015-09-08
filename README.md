@@ -29,3 +29,7 @@ Where `{dir}` - full server path to a directory with our pushall folder.
         'text' => 'some message'
     ));
 ```
+##List of parameters
+Parameter | Type | Required | Default
+--------- | ---- | -------- | -------
+title | string |  | -
