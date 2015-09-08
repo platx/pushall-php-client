@@ -1,4 +1,8 @@
 <?php
+/**
+ * @author Vladyslav Platonov <vlad@plat-x.com>
+ * @link http://plat-x.com/
+ */
 
 namespace platx\pushall;
 
@@ -11,8 +15,9 @@ use platx\pushall\exceptions\RequiredParameterException;
 
 /**
  * Class PushAll
- *
  * @package platx\pushall
+ *
+ * See README.md for usage
  */
 class PushAll 
 {
