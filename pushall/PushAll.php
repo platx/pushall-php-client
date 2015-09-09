@@ -121,6 +121,7 @@ class PushAll
     public $priority = self::PRIORITY_DEFAULT;
 
     /**
+     * Return response type
      * @var int
      */
     public $responseType = self::RESPONSE_TYPE_ARRAY;
@@ -198,7 +199,7 @@ class PushAll
      * Validate api parameters
      * @throws RequiredParameterException
      */
-    private function _validateParams()
+    protected function _validateParams()
     {
         if (empty($this->title)) {
             throw new RequiredParameterException('Parameter "title" is required!');
@@ -270,7 +271,7 @@ class PushAll
      * @param $propertyName
      * @return bool
      */
-    protected function _hasProperty($propertyName)
+    private function _hasProperty($propertyName)
     {
         return property_exists($this, $propertyName);
     }
