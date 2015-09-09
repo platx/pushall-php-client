@@ -1,5 +1,5 @@
 # PushAll.ru PHP Client
-This is php client for **PushAll.ru API**, helps to send push messages via PushAll service.
+This is php client for **PushAll.ru API**, helps to send push messages via this service.
 ## Usage
 1.In your php file type this: 
 ```php
