@@ -173,10 +173,8 @@ class PushAll
 
         $result = $this->_post();
 
-        switch($this->responseType) {
-            case self::RESPONSE_TYPE_ARRAY :
-                $result = json_decode($result, true);
-                break;
+        if($this->responseType == self::RESPONSE_TYPE_ARRAY) {
+            $result = json_decode($result, true);
         }
 
         return $result;
