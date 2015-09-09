@@ -162,7 +162,7 @@ class PushAll
      * @return mixed
      * @throws RequiredParameterException
      */
-    public function send($params = array())
+    protected function send($params = array())
     {
         if (!empty($params)) {
             $this->setParams($params);
@@ -243,7 +243,7 @@ class PushAll
      * Send API request
      * @return mixed
      */
-    private function _post()
+    protected function _post()
     {
         if (function_exists('curl_init')) {
             curl_setopt_array($ch = curl_init(), array(
@@ -270,7 +270,7 @@ class PushAll
      * @param $propertyName
      * @return bool
      */
-    private function _hasProperty($propertyName)
+    protected function _hasProperty($propertyName)
     {
         return property_exists($this, $propertyName);
     }
