@@ -17,6 +17,7 @@ Where `{dir}` - full server path to a directory with our pushall folder.
         'aaa000bbb111ccc222ddd333eee444ff'
     );
 ```
+Where `00000` - your feed id, `aaa000bbb111ccc222ddd333eee444ff` - your feed key.
 
 3.To send a push message use following code:
 ```php
