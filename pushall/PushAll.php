@@ -163,7 +163,7 @@ class PushAll
      * @return mixed
      * @throws RequiredParameterException
      */
-    protected function send($params = array())
+    public function send($params = array())
     {
         if (!empty($params)) {
             $this->setParams($params);
