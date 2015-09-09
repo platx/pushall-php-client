@@ -3,7 +3,7 @@ This is php client for **PushAll.ru API**, helps to send push messages via this 
 ## Usage
 1.In your php file type this: 
 ```php
-    require {dir}'/pushall/PushAll.php';
+    require {dir}.'/pushall/PushAll.php';
 ```
 Where `{dir}` - full server path to a directory with our pushall folder.
 
