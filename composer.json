@@ -1,5 +1,5 @@
 {
-    "name": "platx/pushall",
+    "name": "platx/pushall-php-client",
     "description": "PushAll.ru PHP Client",
     "keywords": ["php", "pushall", "push messages", "php client"],
     "homepage": "http://plat-x.com/",
