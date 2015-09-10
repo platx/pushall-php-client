@@ -1,0 +1,7 @@
+{
+    "name": "platx/pushall",
+    "description": "PushAll.ru PHP Client",
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
