@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "platx\\pushall\\": ""
+            "platx\\pushall\\": "pushall"
         }
     },
     "require": {
