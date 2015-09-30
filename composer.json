@@ -16,6 +16,11 @@
         "issues": "https://github.com/platx/pushall-php-client/issues?state=open",
         "source": "https://github.com/platx/pushall-php-client"
     },
+    "autoload": {
+        "psr-4": {
+            "platx\\pushall\\": ""
+        }
+    },
     "require": {
         "php": ">=5.3.0"
     }
