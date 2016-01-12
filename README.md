@@ -40,7 +40,7 @@ Parameter | Type | Required | Default | Variants
 ## List of parameters
 Parameter | Type | Required | Default | Variants
 --------- | ---- | -------- | ------- | --------
-**type** | *string* | **YES** | self | `self, broadcast, multicast` OR `TYPE_SELF, TYPE_VROADCAST, TYPE_MULTICAST`
+**type** | *string* | **YES** | self | `self, broadcast, unicast, multicast` OR `TYPE_SELF, TYPE_BROADCAST, TYPE_UNICAST, TYPE_MULTICAST`
 **uid** | *integer* | NO | - | -
 **title** | *string* | **YES** | - | -
 **text** | *string* | **YES** | - | -
