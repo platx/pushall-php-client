@@ -220,6 +220,7 @@ class PushAll
             'id' => $this->_id,
             'key' => $this->_key,
             'type' => $this->type,
+            'uid' => $this->uid,
             'title' => $this->title,
             'text' => $this->text,
             'hidden' => $this->hidden,
